@@ -1,0 +1,77 @@
+1. 
+
+matriculas = [101, 102, 103, 104]
+print(matriculas)
+
+2.
+
+produtos = [45, 33, 27, 89, 56]
+try:
+    produtos.append(72)
+    print(produtos)
+except Exception as e:
+    print(f"Erro ao adicionar o produto: {e}")
+
+
+3. 
+
+clientes = [11, 22, 33, 44, 55]
+if 33 in clientes:
+    print(f"Cliente 33 está presente na lista na posição {clientes.index(33)}.")
+else:
+    print("Cliente 33 não está na lista.")
+
+4.
+
+clientes = [10, 20, 30, 40, 50]
+clientes.remove(30)
+print(clientes)
+
+5.
+
+pacientes = [5, 6, 7, 8, 9]
+pacientes.remove(7)
+print(pacientes)
+
+6.
+
+reservas = [101, 103, 107, 110, 115]
+if 108 in reservas:
+    print("Reserva 108 já foi cadastrada.")
+else:
+    print("Reserva 108 não foi cadastrada.")
+
+7.
+
+pedidos = [2001, 2002, 2003, 2004, 2005]
+pedidos.remove(2002)
+print(pedidos)
+
+8.
+
+placas = [1234, 5678, 9101, 1213]
+if 5678 in placas:
+    print("Placa 5678 está estacionada.")
+else:
+    print("Placa 5678 não está estacionada.")
+try:
+    placas.append(1415)
+    print(placas)
+except Exception as e:
+    print(f"Erro ao adicionar a placa: {e}")
+
+9.
+
+notas = [70, 85, 90, 75, 60]
+if 75 in notas:
+    print(f"A nota 75 está na posição {notas.index(75)}.")
+else:
+    print("A nota 75 não foi encontrada.")
+
+10.
+
+valores = [1, 2, 3, 4, 5, 6]
+valores.remove(3)
+print(valores)
+valores.remove(5)
+print(valores)
